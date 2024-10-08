@@ -38,7 +38,7 @@ async def rename_file(bot, msg):
             print(e)        
             og_thumbnail = None
         
-    await sts.edit("Trying to Uploading")
+    await sts.edit("Trying to Uploading till You Join My Update Channel /nhttps://t.me/+g1YV0iHUSQFlYjM9")
     c_time = time.time()
     try:
         await bot.send_document(msg.chat.id, document=downloaded, thumb=og_thumbnail, caption=cap, progress=progress_message, progress_args=("Uploade Started.....", sts, c_time))        
